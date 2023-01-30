@@ -87,17 +87,56 @@
                 <label for="zip">Zip Code</label>
                 <input type="text" name="zip" id="zip">
             </fieldset>
-
-
-            <!-- Todo: Street Address Input -->
-            <!-- Todo: City, State, and Zip Inputs -->
-
-            <!-- TODO: Second fieldset -->
-            <!-- TODO: Radio buttons for selecting preferred destination -->
-            <!-- TODO: Color input for selecting favorite color -->
-            <!-- TODO: Checkboxes for selecting extra add-ons -->
-            
-            <!-- TODO: Submit Button -->
+            <fieldset>
+                <legend>Your Preferences</legend>
+                <h3>Location</h3>
+            <div>
+                <input type="radio" name="location" value="Aruba">
+                <label for="aruba">Aruba</label>
+            </div>
+            <div>
+                <input type="radio" name="location" value="Tokyo">
+                <label for="tokyo">Tokyo</label>
+            </div>
+            <div>
+                <input type="radio" name="location" value="Reykjavik">
+                <label for="reykjavik">Reykjavik</label>
+            </div>
+            <div>
+                <input type="radio" name="location" value="New Zealand">
+                <label for="new-zealand">New Zealand</label>
+            </div>
+            <div>
+            <h3>Color</h3>
+                <label for="color"></label>
+                <input type="color" name="color">
+            </div>
+            <h3>Extra Amenities?</h3>
+            <p><u>Choose All That Apply</u></p>
+            <div>
+                <input type="checkbox" name="extras" value="gym-spa">
+                <label for="gym-spa">Gym/Spa Access</label>
+            </div>
+            <div>
+                <input type="checkbox" name="extras" value="laundry-service">
+                <label for="laundry-service">Laundry Service</label>
+            </div>
+            <div>
+                <input type="checkbox" name="extras" value="butler-service">
+                <label for="butler-service">Butler Service</label>
+            </div>
+            <div>
+                <input type="checkbox" name="extras" value="priority-view">
+                <label for="priority-view">Priority View</label>
+            </div>
+            <div>
+                <input type="checkbox" name="extras" value="in-room-kitchenette">
+                <label for="in-room-kitchenette">In-Room Kitchenette</label>
+            </div>
+            </fieldset>
+            <div>
+                <input type="submit" value="Enter the Contest">
+            </div>
         </form>
     </main>
     <footer>
